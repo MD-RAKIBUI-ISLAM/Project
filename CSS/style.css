@@ -4,9 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    /* overflow-x: hidden; */
 }
 
-body{
+.background{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/Images/BackgroundImage.jpg);
@@ -67,10 +68,29 @@ ul li a:hover{
     overflow-x: hidden;
 }
 
-/* .Iframe{
-    margin: 80px;
-    padding: 30px;
-    height: 500px;
-    width: 500px;
-    border: none;
-} */
+.purpose{
+    height: 300px;
+    width: 100%;
+    padding-left: 70px;
+    margin: 70px;
+}
+.purpose h1{
+    font-weight: bold;
+}
+
+.start a{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background: black;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}

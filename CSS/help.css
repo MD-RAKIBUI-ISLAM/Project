@@ -22,6 +22,10 @@ ul{
     margin: 20px;
 }
 
+ul li{
+    margin: 20px;
+    position: relative;
+}
 ul li a{
     text-decoration: none;
     color:#fff;
